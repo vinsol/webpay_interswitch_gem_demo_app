@@ -1,0 +1,8 @@
+webpay:
+  development:
+    product_id: '<Provided product_id>'
+    pay_item_id: '<Provided pay_item_id>''
+    currency: '566'
+    site_redirect_url: 'http://localhost:3000/process_payment'
+    mac_key: '<Provided MAC Key>'
+    test: true

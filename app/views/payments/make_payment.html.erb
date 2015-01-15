@@ -1,0 +1,3 @@
+<%= label_tag 'Clicking this will initiate a transaction of 25 Naira.' %>
+
+<%= form_for_webpay("inter-demo-test-#{Random.rand(999999)}", 2500, {submit_button_text: 'Proceed to Payment (25 N)', class: 'btn btn-danger'}) %>
